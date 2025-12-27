@@ -14,7 +14,9 @@ This project demonstrates Object-Oriented Programming (OOP) principles by modeli
 * **Smart Cart Management:**
     * Tracks items added to the cart in real-time.
     * Calculates the final total automatically upon checkout.
-* **Order Generation:** Creates a unique, randomized **Order ID** for every successful transaction.## Demo
+* **Order Generation:** Creates a unique, randomized **Order ID** for every successful transaction.
+
+## Demo
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8b82e95f-c2b2-4b06-9fee-92aee18a3188)
 
