@@ -14,12 +14,10 @@ This project demonstrates Object-Oriented Programming (OOP) principles by modeli
 * **Smart Cart Management:**
     * Tracks items added to the cart in real-time.
     * Calculates the final total automatically upon checkout.
-* **Order Generation:** Creates a unique, randomized **Order ID** for every successful transaction.
-
-
-## Demo
+* **Order Generation:** Creates a unique, randomized **Order ID** for every successful transaction.## Demo
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8b82e95f-c2b2-4b06-9fee-92aee18a3188)
+
 
 ## Usage
 
@@ -58,3 +56,18 @@ Stella's Cart:
 Total Cost: $775.57
 Order placed
 OrderID: ORD-5600 | CustomerID: u-100
+
+```
+## Author
+
+- [@The_star3777](https://github.com/Thestar3777)
+
+## Tech Stack
+
+* **Language:** Java (JDK 22)
+* **IDE:** IntelliJ IDEA
+* **Version Control:** Git & GitHub
+## Badges
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
