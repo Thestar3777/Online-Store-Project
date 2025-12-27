@@ -2,35 +2,59 @@
 
 A Java-based e-commerce backend simulation that manages the core logic of an online shopping platform.
 
-This project demonstrates Object-Oriented Programming (OOP) principles by modeling the interactions between **Products**, **Customers**, and **Shopping Carts**. It simulates a real-world scenario where users can browse items, add/remove them from their cart, and checkout to generate a unique Order ID.## Key Features
+This project demonstrates Object-Oriented Programming (OOP) principles by modeling the interactions between **Products**, **Customers**, and **Shopping Carts**. It simulates a real-world scenario where users can browse items, add/remove them from their cart, and checkout to generate a unique Order ID.
 
-* **Object-Oriented Design:** distinct classes for `Product`, `Customer`, and `Order` management.
-* **Cart Management:**
-    * **Add to Cart:** Users can select specific products by ID.
-    * **Remove from Cart:** dynamically updates the cart total when items are removed.
-* **Order Processing:**
-    * Automatically calculates the final total cost of all items.
-    * Generates a unique **Order ID** and **Customer ID** for every transaction.## Example Output
+"Now features an **interactive command-line interface (CLI)** that accepts user input for a personalized shopping experience."## Key Features
 
-When running the `Main` class, the program simulates three distinct customer sessions:
+* **Interactive CLI:** Users can enter their own name and custom ID to start a session.
+* **Dynamic Inventory System:**
+    * Displays a live list of available products and prices.
+    * Allows users to search and add items by Product ID.
+    * **Error Handling:** Detects invalid IDs and prompts the user to try again.
+* **Smart Cart Management:**
+    * Tracks items added to the cart in real-time.
+    * Calculates the final total automatically upon checkout.
+* **Order Generation:** Creates a unique, randomized **Order ID** for every successful transaction.
+
+
+## Demo
+
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8b82e95f-c2b2-4b06-9fee-92aee18a3188)
+
+## Usage
+
+Run the program and follow the on-screen prompts to shop.
+
+**Example Session:**
 
 ```text
-Martha Logan's Cart:
+Welcome to the Online Store!
+----------------------------
+Please enter your name: Stella
+Please enter a custom User ID (e.g., U-100): u-100
+
+Hello, Stella! Let's start shopping.
+
+--- Available Products ---
+GB-17 : Gretchen Bag ($750.59)
+FM-27 : Fons Mirror Set ($152.89)
+...
+
+Enter the Product ID to add to your cart: gb-17
+Success! Gretchen Bag was added to your cart.
+
+Enter the Product ID to add to your cart: theio
+Error: Product ID not found. Please try again.
+
+Enter the Product ID to add to your cart: checkout
+
+----------------------------
+Processing your order...
+
+Stella's Cart:
 1) GB-17 - Gretchen Bag - $750.59
-1) FM-27 - Fons Mirror Set - $152.89
-1) HP-24 - Holden Print - $130.0
-
-Total Cost: $1033.48
-Order placed
-OrderID: PJVBK-400 | CustomerID: MLO-47
-
----------------------------------------------------
-
-Diego Luna's Cart:
-1) JC-67 - Jackson's comb  - $50.28
 1) LP-36 - Lounge Perfume - $24.98
-1) HP-24 - Holden Print - $130.0
 
-Total Cost: $205.26
+Total Cost: $775.57
 Order placed
-OrderID: PFZYX-401 | CustomerID: DLO-38
+OrderID: ORD-5600 | CustomerID: u-100
